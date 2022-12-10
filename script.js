@@ -41,7 +41,7 @@ button.addEventListener('click', () => {
         gif.classList.add('hidden');
     }
 
-    let url = `https://vadivelu.anoram.com/gif/${selectCode.value}`;
+    let url = `https://vadivelu.anoram.com/jpg/${selectCode.value}`;
     gif.classList.remove('hidden');
     gif.src = url;
 })
