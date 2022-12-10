@@ -4,4 +4,27 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(18, 16, 16);
+    color: white;
+}
+
+.content {
+    height: 100vh;
+}
+
+.heading {
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+}
+
+.form-select {
+    width: 60%;
+    margin: 2rem 0;
+}
+
+.hidden{
+    display: none;
+}
+
+button{
+    margin-bottom: 2rem;
 }
